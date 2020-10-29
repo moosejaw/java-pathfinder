@@ -21,7 +21,9 @@ public class CellUtils {
         for (int i=0; i < x; i++) {
             ArrayList<Cell> sub = new ArrayList<>(y);
             for (int e=0; e < y; e++) {
-                sub.add(new Cell());
+                Cell c = new Cell();
+                c.setPos(new int[] {i, e});
+                sub.add(c);
             }
             ret.add(sub);
         }

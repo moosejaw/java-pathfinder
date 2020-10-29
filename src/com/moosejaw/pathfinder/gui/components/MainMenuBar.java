@@ -4,6 +4,9 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.control.*;
 
 public class MainMenuBar extends Component {
+    /**
+     * This class contains the relevant components for the menu bar shown in the main window.
+     */
     public MainMenuBar() {
         // Set Pane
         this.p = new StackPane();
